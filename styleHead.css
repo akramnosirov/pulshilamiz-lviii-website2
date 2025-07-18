@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'font';
+    src: url('assets/fonts/slick.ttf') ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f5faff;
+}
+.headDiv {
+    display: flex;
+    height: 100px;
+    width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+}
+.navUl  {
+    display: flex;
+    list-style-type: none;
+}
+.navUl a:link, .navUl a:visited{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    color: #444;
+    transition: color 0.3s ease;
+}
+.navUl li{
+    display: flex;
+    align-items: center;
+}
+.navUl a:hover {
+    color: red;
+}
+
+.headDiv p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #00aeff;
+}
+.headDiv p span {
+    color: #ff0000;
+}
+
+.contactBtn , .contactBtn:visited  {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    background-color: red;
+    transition: background-color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.contactBtn:active, .contactBtn:hover {
+    background-color: #00aeff;
+}
+
+/* ---------------------------------------------- */
+
+.wecomeDiv{
+    height: 600px;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeSec {
+    position: relative;
+}
+
+.welcomeImg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.welcomeImg2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.welcomeP {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: red;
+}
+
+.welcomeH1 {
+    font-size: 3rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.welcomeDescrip {
+    color: #555;
+    margin-top: 2rem;
+    line-height: 1.6;
+}
+
+.welcomeInpDiv {
+    align-items: center;
+    position: relative;
+    display: flex;
+    background-color: #00aeff;
+    width: fit-content;
+    padding: 17px 20px;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+.welcomeInp {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin-right: 8rem;
+
+}
+.welcomeInp::placeholder {
+    color: white;
+}
+
+.welcomeInpDiv a, .welcomeInpDiv a:visited {
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    position: absolute;
+    padding: 8px 12px;
+    right: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+
+}
+
+.welcomeMainImg {
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.rocketImg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.rocketSec {
+    overflow: hidden;
+    height: 560px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rocketSec1 {
+    margin-left: 2rem;
+}
+.rocketOpa {
+    width: 300px;
+}
+.rocketDiv {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.rocketFunk1 {
+    display: flex;
+    max-width: 24rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.rocketFunk1 img {
+    width: 4rem;
+    margin-right: 1rem;
+    height: 4rem;
+}
+.rocketFunk1 h3 {
+    margin-bottom: 1rem;
+}
+.rocketFunk1 p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+}
+.rocketDiv2 {
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.growSection {
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.growSection > img {
+    width: 45%;
+    margin-right: 4rem;
+}
+.growDiv {
+    width: 70%;
+}
+.growDiv p {
+    margin-top: 1.8rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+.websiteAnaly {
+    margin-top: 2rem;
+}
+.websiteAnaly, .seoReports, .pageOptimiz {
+    position: relative;
+    height: 2.4rem;
+    margin-bottom: 1.3rem;
+}
+.websiteAnaly h3, .seoReports h3, .pageOptimiz h3 {
+    font-size: 1.2rem;
+}
+.websiteAnaly h2 , .seoReports h2 , .pageOptimiz h2 {
+    font-size: 1.1rem;
+    color: #00aeff;
+    position: absolute;
+    top: 5px;
+    right: 3rem;
+}
+.pushtiCh {
+    width: 100%;
+    height: 0.3rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 224, 229);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.qizilCh {
+    width: 8rem;
+    height: 0.3rem;
+    border-radius: 1rem;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.websiteAnaly .qizilCh {
+    width: 84%;
+}
+.websiteAnaly h2 {
+    right: 58px;
+}
+.seoReports .qizilCh {
+    width: 88%;
+}
+.seoReports h2 {
+    right: 40px;
+}
+.pageOptimiz .qizilCh {
+    width: 94%;
+}
+.pageOptimiz h2 {
+    right: 8px;
+}
+
+
+/* --------------------------------------------------------- */
+
+.seeWhatH1 {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.seeWhatDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    position: relative;
+
+}
+.seeWhatA {
+    width: 248px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+    gap: 0.7rem;
+    line-height: 1.5;
+    position: relative;
+    transition: 0.5s ease;
+    bottom: 0;
+
+
+}
+.seeWhatA h3 {
+    position: relative;
+    margin-top: 1.4rem;
+}
+.seeWhatA p {
+    position: relative;
+    font-size: 0.8rem;
+    margin: 0 20px;
+}
+.seeWhatA img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.seeWhatB {
+    position: relative;
+    bottom: 160px;
+    width: 248px;
+    height: 162px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.144);
+    transition: 0.5s ease;
+}
+
+.seeWhat1 {
+    background-color: #ffffff00;
+    position: relative;
+}
+.seeWhat1:hover .seeWhatA{
+    bottom: 100px;
+}
+.seeWhat1:hover .seeWhatB{
+    bottom: 90px;
+}
+
+.tugadi {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ff0000;
+    font-size: 8rem;
+    margin-bottom: 5rem;
+}
